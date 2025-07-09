@@ -11,5 +11,3 @@
 
    mv devops-file.txt ../Cloud/
    when inside the Directory
-
-4.
