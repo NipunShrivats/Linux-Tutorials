@@ -63,3 +63,47 @@
     d. /<word> to search
     e. press "q" to exit from screen
     f. man <less/more> options
+
+19. cp Directory1/file1 Directory2:
+    a. will copy file1 from Dir1 to Dir2
+
+20. cp -r Dir1/ Dir2/: (-r = recursively)
+    Will copy Dir1 inside Dir2
+
+21. mv Devops/devops-file.txt Cloud/
+    when outside the directory
+
+mv devops-file.txt ../Cloud/
+when inside the Directory
+
+22. wc <filename.txt>: (wc -> word count)
+    a. read no. of lines, words and size(in bytes).
+    b. eg:- 3 12 51 newFile.txt
+
+23. ln <path/filename>
+    a. Create a hardLink of the file (not a shortcut [ln -> link])
+    b. will no be deleted if main file is deleted
+    c. changes in main file will reflect here
+
+24. ln -s <path/filename>
+    a. Create a softLink of the file (shortcut [-s -> soft])
+    b. will be deletd if main file is deleted
+    c. changes in main file will re flect here
+
+25. cut -b 1/1-4 <fileName.txt>
+    a. will give the data in the file according to alphabets
+    b. 1 will give 1st alphabet and 1-4 give 1st 4 alphabets
+
+26. echo "This is a new file" | tee newFile.txt
+    a. this will print data on the screen & will create a file and save its data as well.
+
+27. sort <fileName>
+    a. will sort
+
+28. diff <file1.txt> <file2.txt>
+    a.differenec between 2 files data
+
+29. vi/vim <fileName.txt>
+    a. opens a file to edit
+    b. press esc
+    c. :wq! (write quit)
